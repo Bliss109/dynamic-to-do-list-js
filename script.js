@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         removeButton.textContent = 'Remove';
         removeButton.className = 'remove-btn';
 
-        // Attach an event listener to the remove button
+        // Assign an onclick event to the remove button to remove the task
         removeButton.onclick = function() {
             taskList.removeChild(listItem);
         };
